@@ -1,4 +1,10 @@
 #/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# [*] Name of the Tool: GeoTrackerIP
+# [*] Description: "Geolocalize IP Public"
+# [*] Author: JRIC2002
+# [*] Date: 15/03/2019
 
 #IMPORTACION DE MODULOS
 

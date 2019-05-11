@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # [*] Name of the Tool: GeoTrackerIP
 # [*] Description: "Geolocalize IP Public"

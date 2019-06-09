@@ -6,7 +6,7 @@
 # [*] Author: JRIC2002
 # [*] Date: 15/03/2019
 
-#IMPORTACION DE MODULOS...
+#MODULOS
 
 import itertools
 import time
@@ -15,7 +15,7 @@ import sys
 
 #COLORES EN CODIGO ANSI
 
-#Colores
+#Foreground
 
 a_black = "\033[1;30m"
 a_red = "\033[1;31m"
@@ -26,7 +26,7 @@ a_magenta = "\033[1;35m"
 a_cyan = "\033[1;36m"
 a_white = "\033[1;37m"
 
-#Backgrounds
+#Background
 
 ab_black = "\033[1;40m"
 ab_red = "\033[1;41m"

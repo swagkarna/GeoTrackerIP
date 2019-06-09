@@ -6,7 +6,7 @@
 # [*] Author: JRIC2002
 # [*] Date: 15/03/2019
 
-#IMPORTACION DE MODULOS
+#MODULOS
 
 from colorama import init, Fore, Back, Style
 

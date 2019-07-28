@@ -66,15 +66,15 @@ def instalacion():
     print("")
     bucle = itertools.cycle("/-|-\|")
     for i in range(30):
-        print("{}[{}*{}] {}Instalando modulos...{}{}".format(a_cyan, a_white, a_cyan, a_green, next(bucle), a_white), end='\r')
+        print("{}[{}*{}] {}Installing Modules...{}{}".format(a_cyan, a_white, a_cyan, a_green, next(bucle), a_white), end='\r')
         time.sleep(0.1)
     
     print ("")
     print ("")
-    os.system("pip3 install colorama")
-    os.system("pip3 install requests")
+    os.system("python3 -m pip install colorama")
+    os.system("python3 -m pip install requests")
     print ("")
-    print ("                        {}>> Instalacion Completa <<{}".format(a_blue, a_white))
+    print ("                        {}>> Installation complete <<{}".format(a_blue, a_white))
     print ("")
     time.sleep(1)
 
@@ -84,9 +84,9 @@ def pregunta():
 
         limpiar()
         banner()
-        print ("{}[{}#{}] {}Desea ejecutar la herramienta GeoTrackerIP:".format(a_cyan, a_white, a_cyan, a_magenta))
+        print ("{}[{}#{}] {} You want to run the GeoTrackerIP tool:".format(a_cyan, a_white, a_cyan, a_magenta))
         print ("")
-        print ("    {}[{}01{}] {}Si".format(a_green, a_white, a_green, a_yellow))
+        print ("    {}[{}01{}] {}Yes".format(a_green, a_white, a_green, a_yellow))
         print ("")
         print ("    {}[{}02{}] {}No".format(a_green, a_white, a_green, a_yellow))
         print ("")

@@ -42,3 +42,6 @@ def logo():
     print ("          {}<<< {}Description:{} Geolocalize IP Public {}>>>{}".format(red,yellow,white,red,white))
     print ("")
 
+#START
+if __name__ == "__main__":
+    logo()

@@ -48,10 +48,10 @@ def error_args():
     geotrackerip_logo.logo()
     
     #Use
-    print("Usage: python3 GeoTrackerIP.py [options]")
+    print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
     print("")
-    print("GeoTrackerIP.py: Error: Invalid option.")
-    print("Use -h or --help to see the options.")
+    print("{}GeoTrackerIP.py: Error: Invalid option.".format(white))
+    print("{}Use -h or --help to see the options.".format(white))
 
 #HELP MENU
 def help_menu():
@@ -59,11 +59,21 @@ def help_menu():
     geotrackerip_logo.logo()
     
     #Use
-    print("Usage: python3 GeoTrackerIP.py [options]")
+    print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
     print("")
-    print("Options:")
-    print("   -h, --help              Show this help message and exit.")
-    print("   -t, --target            IP Address or Domain to be analyzed.")
+    print("{}Options:".format(white))
+    print("{}   -h, --help              Show this help message and exit.".format(white))
+    print("{}   -v, --version           Show program's version number and exit.".format(white))
+    print("")
+    print("{}   Target:".format(white))
+    print("{}      At least one of these options has to be provided to define the target(s).".format(white))
+    print("")
+    print("{}      -t, --target            IP Address or Domain to be analyzed.".format(white))
+
+#VERSION
+def version():
+    #Mensaje
+    print("{}#GeoTrackerIP version 2.0".format(white))
 
 #LOCATE IP
 def geolocationIP(ip):
@@ -103,7 +113,8 @@ def geolocationIP(ip):
         timezone = datos['timezone']
         codigo_zip = datos['zip']
         google_maps = "https://www.google.com/maps/search/?api=1&query={},{}".format(latitud, longitud)
-            
+
+        #Imprimir los resultados
         print ("")
         print ("{}[{}*{}] {}Target:{} {}".format(green, white, green, white, green, target))
         print ("{}[{}*{}] {}IP:{} {}".format(green, white, green, white, green, direccion_ip))
@@ -134,6 +145,8 @@ if len(sys.argv) == 3:
 elif len(sys.argv) == 2:
     if sys.argv[1] == "-h" or sys.argv[1] == "--help":
         help_menu()
+    elif sys.argv[1] == "-v" or sys.argv[1] == "--version":
+        version()
     else:
         error_args()
 elif len(sys.argv) == 1:

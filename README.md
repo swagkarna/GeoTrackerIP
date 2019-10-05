@@ -12,7 +12,8 @@ GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica d
 
 <img src="https://github.com/JRIC2002/GeoTrackerIP/blob/master/.Screenshots/GeoTrackerIP-Screenshot(1).jpg" width="100%"/>
 
->> PROCESO DE INSTALACION.
+PROCESO DE INSTALACIÓN.
+----
 
         1.- Clonar el repositorio "GeoTrackerIP".
 

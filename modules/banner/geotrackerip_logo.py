@@ -34,7 +34,7 @@ b_white = "\033[1;47m"
 def logo():
     print ("")
     print ("     {} __ ___ __ {}_____ ___  __   ____  _____ ___   {} _ ___ ".format(blue,green,cyan))
-    print ("     {}/ _] __/__\{}_   _| _ \/  \ / _/ |/ / __| _ \{}_{}_| | _,\ ".format(blue,green,white,cyan))
+    print ("     {}/ _] __/__\{}_   _| _ \/  \ / _/ |/ / __| _ \{}__{}| | _,\ ".format(blue,green,white,cyan))
     print ("    {}| [/\ _| \/ |{}| | | v / /\ | \_|   <| _|| v /{}__{}| | v_/ ".format(blue,green,white,cyan))
     print ("     {}\__/___\__/ {}|_| |_|_\_||_|\__/_|\_\___|_|_\  {}|_|_|   {}v2.0 ".format(blue,green,cyan,white))
     print ("")

@@ -3,10 +3,11 @@
 
 # [*] Name of the Tool: GeoTrackerIP
 # [*] Description: "Geolocalize IP Public"
+# [*] Module of the Tool: GeoTrackerIP
 # [*] Author: JRIC2002
 # [*] Date: 15/03/2019
 
-#COLORS ANSI
+#ANSI COLORS
 
 #Foreground
 
@@ -30,7 +31,7 @@ b_magenta = "\033[1;45m"
 b_cyan = "\033[1;46m"
 b_white = "\033[1;47m"
 
-#BANNER
+#LOGO
 def logo():
     print ("")
     print ("     {} __ ___ __ {}_____ ___  __   ____  _____ ___   {} _ ___ ".format(blue,green,cyan))

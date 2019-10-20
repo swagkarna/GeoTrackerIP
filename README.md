@@ -24,11 +24,11 @@ GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica d
         3.- Dale permisos a los archivos.
 
                 * chmod +x GeoTrackerIP.py
-                * chmod +x setup.py
+                * chmod +x install.py
 
-        4.- Luego ejecuta el archivo "setup.py".
+        4.- Luego ejecuta el archivo "install.py".
 
-                * python3 setup.py
+                * python3 install.py
 
         5.- Ahora ya podras ejecutar la herramienta "GeoTrackerIP".
 

@@ -62,7 +62,7 @@ def install():
     print ("")
     os.system("python3 -m pip install requests")
     print ("")
-    print ("                        {}>> Installation Complete <<{}".format(blue, white))
+    print ("                     {}>> Installation Complete <<{}".format(blue, white))
     print ("")
     time.sleep(1)
 

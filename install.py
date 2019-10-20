@@ -56,8 +56,7 @@ def install():
     bucle = itertools.cycle("/-|-\|")
     for i in range(30):
         print("{}[{}*{}] {}Installing Modules...{}{}".format(cyan, white, cyan, green, next(bucle), white), end='\r')
-        time.sleep(0.1)
-    
+        time.sleep(0.1) 
     print ("")
     print ("")
     os.system("python3 -m pip install requests")

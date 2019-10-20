@@ -16,9 +16,9 @@ import sys
 
 #Internal Modules
 
-from modules.banner import geotrackerip_logo
+from modules.logo import geotrackerip_logo
 
-#COLORS ANSI
+#ANSI COLORS
 
 #Foreground
 
@@ -42,9 +42,9 @@ b_magenta = "\033[1;45m"
 b_cyan = "\033[1;46m"
 b_white = "\033[1;47m"
 
-#ARGUMENT ERROR
+#ERROR OF ARGUMENT
 def error_args():
-    #Banner
+    #Logo
     geotrackerip_logo.logo()
     
     #Use
@@ -55,7 +55,7 @@ def error_args():
 
 #HELP MENU
 def help_menu():
-    #Banner
+    #Logo
     geotrackerip_logo.logo()
     
     #Use
@@ -77,7 +77,7 @@ def version():
 
 #LOCATE IP
 def geolocationIP(ip):
-    #Banner
+    #Logo
     geotrackerip_logo.logo()
 
     #Datos del usuario

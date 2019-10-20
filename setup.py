@@ -3,6 +3,7 @@
 
 # [*] Name of the Tool: GeoTrackerIP
 # [*] Description: "Geolocalize IP Public"
+# [*] Installer of the Tool: GeoTrackerIP
 # [*] Author: JRIC2002
 # [*] Date: 15/03/2019
 
@@ -17,7 +18,7 @@ import sys
 
 #Internal Modules
 
-from modules.banner import geotrackerip_logo
+from modules.logo import geotrackerip_logo
 
 #COLORS ANSI
 
@@ -50,7 +51,7 @@ def clean():
     elif os.name == "ce" or os.name == "nt" or os.name == "dos":
         os.system ("cls")
         
-#INSTALLING....
+#PROCESS OF INSTALLING
 def install():
     bucle = itertools.cycle("/-|-\|")
     for i in range(30):

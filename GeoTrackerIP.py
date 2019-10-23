@@ -42,17 +42,11 @@ b_magenta = "\033[1;45m"
 b_cyan = "\033[1;46m"
 b_white = "\033[1;47m"
 
-#ERROR OF ARGUMENT
-def error_args():
-    #Logo
-    geotrackerip_logo.logo()
+#VERSION
+def version():
+    #Mensaje
+    print("{}#GeoTrackerIP version 2.0".format(white))
     
-    #Use
-    print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
-    print("")
-    print("{}GeoTrackerIP.py: Error: Invalid option.".format(white))
-    print("{}Use -h or --help to see the options.".format(white))
-
 #HELP MENU
 def help_menu():
     #Logo
@@ -70,10 +64,16 @@ def help_menu():
     print("")
     print("{}      -t, --target            IP Address or Domain to be analyzed.".format(white))
 
-#VERSION
-def version():
-    #Mensaje
-    print("{}#GeoTrackerIP version 2.0".format(white))
+#ERROR OF ARGUMENT
+def error_args():
+    #Logo
+    geotrackerip_logo.logo()
+
+    #Use
+    print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
+    print("")
+    print("{}GeoTrackerIP.py: Error: Invalid option.".format(white))
+    print("{}Use -h or --help to see the options.".format(white))
 
 #LOCATE IP
 def geolocationIP(ip):

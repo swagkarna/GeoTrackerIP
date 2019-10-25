@@ -57,12 +57,12 @@ def install():
     for i in range(30):
         print("{}[{}*{}] {}Installing Modules...{}{}".format(cyan, white, cyan, green, next(bucle), white), end='\r')
         time.sleep(0.1) 
-    print ("")
-    print ("")
+    print("")
+    print("")
     os.system("python3 -m pip install requests")
-    print ("")
-    print ("                     {}>> Installation Complete <<{}".format(blue, white))
-    print ("")
+    print("")
+    print("                     {}>> Installation Complete <<{}".format(blue, white))
+    print("")
     time.sleep(1)
 
 #FUNCTIONS

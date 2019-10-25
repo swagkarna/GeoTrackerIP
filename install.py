@@ -47,9 +47,9 @@ b_white = "\033[1;47m"
 #CLEAN CONSOLE
 def clean():
     if os.name == "posix":
-        os.system ("clear")
+        os.system("clear")
     elif os.name == "ce" or os.name == "nt" or os.name == "dos":
-        os.system ("cls")
+        os.system("cls")
         
 #PROCESS OF INSTALLING
 def install():

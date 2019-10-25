@@ -33,15 +33,15 @@ b_white = "\033[1;47m"
 
 #LOGO
 def logo():
-    print ("")
-    print ("     {} __ ___ __ {}_____ ___  __   ____  _____ ___   {} _ ___ ".format(blue,green,cyan))
-    print ("     {}/ _] __/__\{}_   _| _ \/  \ / _/ |/ / __| _ \{}__{}| | _,\ ".format(blue,green,white,cyan))
-    print ("    {}| [/\ _| \/ |{}| | | v / /\ | \_|   <| _|| v /{}__{}| | v_/ ".format(blue,green,white,cyan))
-    print ("     {}\__/___\__/ {}|_| |_|_\_||_|\__/_|\_\___|_|_\  {}|_|_|   {}v2.0 ".format(blue,green,cyan,white))
-    print ("")
-    print ("               {}<<< {}Tool coded by:{} @JRIC2002 {}>>>{}".format(red,yellow,white,red,white))
-    print ("          {}<<< {}Description:{} Geolocalize IP Public {}>>>{}".format(red,yellow,white,red,white))
-    print ("")
+    print("")
+    print("     {} __ ___ __ {}_____ ___  __   ____  _____ ___   {} _ ___ ".format(blue,green,cyan))
+    print("     {}/ _] __/__\{}_   _| _ \/  \ / _/ |/ / __| _ \{}__{}| | _,\ ".format(blue,green,white,cyan))
+    print("    {}| [/\ _| \/ |{}| | | v / /\ | \_|   <| _|| v /{}__{}| | v_/ ".format(blue,green,white,cyan))
+    print("     {}\__/___\__/ {}|_| |_|_\_||_|\__/_|\_\___|_|_\  {}|_|_|   {}v2.0 ".format(blue,green,cyan,white))
+    print("")
+    print("               {}<<< {}Tool coded by:{} @JRIC2002 {}>>>{}".format(red,yellow,white,red,white))
+    print("          {}<<< {}Description:{} Geolocalize IP Public {}>>>{}".format(red,yellow,white,red,white))
+    print("")
 
 #START
 if __name__ == "__main__":

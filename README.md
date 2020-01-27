@@ -1,6 +1,6 @@
 # GeoTrackerIP
 
-GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica de una IP, ISP(Proveedor de Servicios de Internet), Ciudad-País de la IP, entre otros.
+GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica de una Dirección IP, ISP(Proveedor de Servicios de Internet), Ciudad-País de la IP, entre otros.
 
 <img src="https://github.com/JRIC2002/GeoTrackerIP/blob/master/.Screenshots/GeoTrackerIP-Screenshot(01).jpg" width="100%"/>
 

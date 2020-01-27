@@ -1,11 +1,4 @@
 # GeoTrackerIP
-      __ ___ __ _____ ___  __   ____  _____ ___    _ ___
-     / _] __/__\_   _| _ \/  \ / _/ |/ / __| _ \__| | _,\
-    | [/\ _| \/ || | | v / /\ | \_|   <| _|| v /__| | v_/
-     \__/___\__/ |_| |_|_\_||_|\__/_|\_\___|_|_\  |_|_|   v2.0
-
-               <<< Tool coded by: @JRIC2002 >>>
-          <<< Description: Geolocalize IP Public >>>
 
 GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica de una IP, ISP(Proveedor de Servicios de Internet), Ciudad-País de la IP, entre otros.
 

@@ -1,29 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# [*] Name of the Tool: GeoTrackerIP
-# [*] Description: "Geolocalize IP Public"
-# [*] Installer of the Tool: GeoTrackerIP
-# [*] Author: JRIC2002
-# [*] Date: 15/03/2019
+#[*] Name of the Tool: GeoTrackerIP
+#[*] Description: "Geolocalize IP Public"
+#[*] Installer of the Tool: GeoTrackerIP
+#[*] Author: JRIC2002
+#[*] Date: 15/03/2019
 
 #MODULES
 
 #External Modules
-
 import itertools
 import time
 import os
 import sys
 
 #Internal Modules
-
 from modules.logo import geotrackerip_logo
 
-#COLORS ANSI
+#ANSI COLORS
 
 #Foreground
-
 black = "\033[1;30m"
 red = "\033[1;31m"
 green = "\033[1;32m"
@@ -34,7 +31,6 @@ cyan = "\033[1;36m"
 white = "\033[1;37m"
 
 #Background
-
 b_black = "\033[1;40m"
 b_red = "\033[1;41m"
 b_green = "\033[1;42m"
@@ -65,7 +61,7 @@ def install():
     print("")
     time.sleep(1)
 
-#FUNCTIONS
+#START
 clean()
 geotrackerip_logo.logo()
 install()

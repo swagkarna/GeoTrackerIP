@@ -46,6 +46,8 @@ def clean():
         os.system("clear")
     elif os.name == "ce" or os.name == "nt" or os.name == "dos":
         os.system("cls")
+    else:
+        break
         
 #PROCESS OF INSTALLING
 def install():

@@ -1,4 +1,7 @@
 # GeoTrackerIP
+![GeoTracker - Version](https://img.shields.io/badge/GeoTrackerIP-v2.0-brightgreen)
+![Release - Stable](https://img.shields.io/badge/Release-Stable-brightgreen)
+![Supported OS - Linux](https://img.shields.io/badge/Supported%20OS-Linux-blue)
 
 GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica de una Dirección IP, ISP(Proveedor de Servicios de Internet), Ciudad-País de la IP, entre otros.
 

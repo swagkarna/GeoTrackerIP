@@ -42,14 +42,12 @@ python3 GeoTrackerIP.py
 ```  
 
 ## Uso  
-**Menú de Ayuda**
-Para ver el menú de ayuda, puedes utilizar `-h` o `--help`.
+**Menú de Ayuda**: Para ver el menú de ayuda, puedes utilizar `-h` o `--help`.
 ```bash
 python3 GeoTracker.py --help
 ```
 
-**Geolocalizar al objetivo**
-Puedes pasar como argumento la URL o la dirección IP del objetivo.
+**Geolocalizar al objetivo**: Puedes pasar como argumento la URL o la dirección IP del objetivo.
 ```bash
 python3 GeoTrackerIP.py -t https://example.com
 ```  

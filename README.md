@@ -48,6 +48,28 @@ python3 GeoTrackerIP.py
 
 ## Uso
 
+```bash
+u0_a107@localhost ~/GeoTrackerIP> python3 GeoTrackerIP.py
+
+      __ ___ __ _____ ___  __   ____  _____ ___    _ ___
+     / _] __/__\_   _| _ \/  \ / _/ |/ / __| _ \__| | _,\
+    | [/\ _| \/ || | | v / /\ | \_|   <| _|| v /__| | v_/
+     \__/___\__/ |_| |_|_\_||_|\__/_|\_\___|_|_\  |_|_|   v2.0
+
+               <<< Tool coded by: @JRIC2002 >>>
+          <<< Description: Geolocalize IP Public >>>
+
+Usage: python3 GeoTrackerIP.py [options]
+
+Options:
+   -h, --help              Show this help message and exit.
+   -v, --version           Show program's version number and exit.
+
+   Target:
+      At least one of these options has to be provided to define the target(s).
+
+      -t, --target            IP Address or Domain to be analyzed.
+```
 
 ## Licencia
 Vea el archivo de **Licencia** para más detalles.

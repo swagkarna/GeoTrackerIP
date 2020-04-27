@@ -18,31 +18,31 @@ Esta herramienta es solo para fines educativos. No me hago responsable por el ma
 ## Instalación
 1. Clonar el repositorio **GeoTrackerIP**.
 
-```sh
+```bash
 git clone https://github.com/JRIC2002/GeoTrackerIP
 ```
 
 2. Entrar a la carpeta **GeoTrackerIP**.
 
-```sh
+```bash
 cd GeoTrackerIP
 ```
 
 3. Dar permisos de ejecución a los archivos.
 
-```sh
+```bash
 chmod +x GeoTrackerIP.py
 chmod +x install.py
 ```
 4. Ejecutar el archivo de instalación **install.py**.
 
-```sh
+```bash
 python3 install.py
 ```
 
 5. Ya puedes ejecutar la herramienta **GeoTrackerIP**.
 
-```sh
+```bash
 python3 GeoTrackerIP.py
 ```
 

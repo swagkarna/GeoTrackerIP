@@ -42,20 +42,21 @@ python3 install.py
 ```
 
 5. Ya puedes ejecutar la herramienta **GeoTrackerIP**.
-```bash
-python3 GeoTrackerIP.py
-```
+     ```bash
+     python3 GeoTrackerIP.py
+     ```
 
 ## Uso
 
 **Menú de Ayuda**
-: Para ver el menú de ayuda, puedes utilizar `-h` o `--help`.
+Para ver el menú de ayuda, puedes utilizar `-h` o `--help`.
 ```bash
 python3 GeoTracker.py --help
 ```
 
 **Geolocalizar al objetivo**
-: Puedes pasar como argumento la URL o la dirección IP del objetivo.
+
+Puedes pasar como argumento la URL o la dirección IP del objetivo.
 ```bash
 python3 GeoTrackerIP.py -t https://example.com
 ```

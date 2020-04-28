@@ -8,7 +8,7 @@ GeoTrackerIP es una herramienta que te permite obtener: Ubicación Geográfica d
 ![GeoTrackerIP - Screenshot](https://github.com/JRIC2002/GeoTrackerIP/blob/master/.Screenshots/GeoTrackerIP-Screenshot[01].jpg)
 
 ## Información
-Esta herramienta es solo para fines educativos. No me hago responsable por el mal uso o daño causado por este programa.
+Esta herramienta es solo para fines educativos. El desarrollador no asume ninguna responsabilidad y no es responsable del mal uso o daño causado por este programa.
 
 ## Características
 * Automatiza el proceso de Geolocalización.

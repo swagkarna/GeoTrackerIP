@@ -58,4 +58,4 @@ python3 GeoTrackerIP.py -t https://example.com
 ```
 
 ## Licencia
-GeoTrackerIP está hecho con ♥ por JRIC2002. Vea el archivo de **Licencia** para más detalles.
+GeoTrackerIP está hecho con 💚 por JRIC2002. Vea el archivo de **Licencia** para más detalles.

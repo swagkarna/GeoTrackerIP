@@ -25,18 +25,18 @@ Esta herramienta es solo para fines educativos. No me hago responsable por el ma
    cd GeoTrackerIP
    ```
 3. Dar permisos de ejecución a los archivos.
-```bash
-chmod +x GeoTrackerIP.py
-chmod +x install.py
-```
+   ```bash
+   chmod +x GeoTrackerIP.py
+   chmod +x install.py
+   ```
 4. Ejecutar el archivo de instalación **install.py**.
-```bash
-python3 install.py
-```
+   ```bash
+   python3 install.py
+   ```
 5. Ya puedes ejecutar la herramienta **GeoTrackerIP**.
-     ```bash
-     python3 GeoTrackerIP.py
-     ```
+   ```bash
+   python3 GeoTrackerIP.py
+   ```
 
 ## Uso
 **Menú de Ayuda**  

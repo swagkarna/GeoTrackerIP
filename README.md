@@ -40,9 +40,15 @@ Esta herramienta es solo para fines educativos. No me hago responsable por el ma
 
 ## Uso
 **Menú de Ayuda**  
-Para ver el menú de ayuda, puedes utilizar `-h` o `--help`.
+Para ver el menú de ayuda puedes utilizar la opción `-h` o `--help`.
 ```bash
-python3 GeoTracker.py --help
+python3 GeoTrackerIP.py --help
+```
+
+**Versión de la herramienta**  
+Para ver la versión de la herramienta puedes utilizar la opción `-v` o `--version`.
+```bash
+python3 GeoTrackerIP.py --version
 ```
 
 **Geolocalizar al objetivo**  

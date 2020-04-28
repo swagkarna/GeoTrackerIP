@@ -51,7 +51,7 @@ Para ver la versión de la herramienta puedes utilizar la opción `-v` o `--vers
 python3 GeoTrackerIP.py --version
 ```
 
-**Geolocalizar al objetivo**  
+**Geolocalizar el objetivo**  
 Puedes pasar como argumento la URL o la dirección IP del objetivo.
 ```bash
 python3 GeoTrackerIP.py -t https://example.com

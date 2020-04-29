@@ -20,8 +20,8 @@ __maintainer__ = "JRIC2002"
 __email__ = "joselito18032002@gmail.com"
 __status__ = "Production"
 
-def colors():
-    """ Colores en código ANSI. """
+def logo():
+    """ Imprime el logo de la herramienta GeoTrackerIP. """
 
     #Foreground
     black = "\033[1;30m"
@@ -43,10 +43,6 @@ def colors():
     b_cyan = "\033[1;46m"
     b_white = "\033[1;47m"
 
-def logo():
-    """ Imprime el logo de la herramienta GeoTrackerIP. """
-
-    colors()
     print("")
     print("     {} __ ___ __ {}_____ ___  __   ____  _____ ___   {} _ ___ ".format(blue, green, cyan))
     print("     {}/ _] __/__\{}_   _| _ \/  \ / _/ |/ / __| _ \{}__{}| | _,\ ".format(blue, green, white, cyan))

@@ -3,6 +3,7 @@
 
 #[*] Name of the tool: GeoTrackerIP
 #[*] Description: "Geolocalize IP Public"
+#[*] Version: 2.0
 #[*] Author: JRIC2002
 #[*] Date of creation: 15/03/2019
 #[*] Date of last update: 29/04/2020
@@ -17,7 +18,7 @@ import sys
 #Internal Modules
 from modules import logo
 
-#ANSI COLORS
+#COLORS
 
 #Foreground
 black = "\033[1;30m"
@@ -41,7 +42,6 @@ b_white = "\033[1;47m"
 
 #VERSION
 def version():
-    #Mensaje
     print("{}#GeoTrackerIP version 2.0".format(white))
     
 #HELP MENU

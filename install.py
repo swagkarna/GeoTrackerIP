@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#[*] Name of the Tool: GeoTrackerIP
-#[*] Description: "Geolocalize IP Public"
-#[*] Installer of the Tool: GeoTrackerIP
+#[*] Name of the tool: GeoTrackerIP
+#[*] Description: "Geolocate an IP address or Domain"
+#[*] Installer of the tool: GeoTrackerIP
 #[*] Author: JRIC2002
 #[*] Date of creation: 15/03/2019
 #[*] Date of last update: 29/04/2020

@@ -19,7 +19,7 @@ import sys
 #Internal Modules
 from modules import logo
 
-#ANSI COLORS
+#COLORS
 
 #Foreground
 black = "\033[1;30m"

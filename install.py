@@ -17,7 +17,7 @@ import os
 import sys
 
 #Internal Modules
-from modules.logo import geotrackerip_logo
+from modules import logo
 
 #ANSI COLORS
 
@@ -68,5 +68,5 @@ def install():
 
 #START
 clean()
-geotrackerip_logo.logo()
+logo.logo()
 install()

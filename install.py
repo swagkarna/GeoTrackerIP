@@ -5,7 +5,8 @@
 #[*] Description: "Geolocalize IP Public"
 #[*] Installer of the Tool: GeoTrackerIP
 #[*] Author: JRIC2002
-#[*] Date: 15/03/2019
+#[*] Date of creation: 15/03/2019
+#[*] Date of last update: 29/04/2020
 
 #MODULES
 

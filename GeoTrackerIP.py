@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #[*] Name of the tool: GeoTrackerIP
-#[*] Description: "Geolocalize IP Public"
+#[*] Description: "Geolocate an IP address or Domain"
 #[*] Version: 2.0
 #[*] Author: JRIC2002
 #[*] Date of creation: 15/03/2019

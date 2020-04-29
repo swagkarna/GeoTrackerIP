@@ -15,7 +15,7 @@ import json
 import sys
 
 #Internal Modules
-from modules.logo import geotrackerip_logo
+from modules import logo
 
 #ANSI COLORS
 
@@ -47,7 +47,7 @@ def version():
 #HELP MENU
 def help_menu():
     #Logo
-    geotrackerip_logo.logo()
+    logo.logo()
     
     #Use
     print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
@@ -64,7 +64,7 @@ def help_menu():
 #ERROR OF ARGUMENT
 def error_args():
     #Logo
-    geotrackerip_logo.logo()
+    logo.logo()
 
     #Use
     print("{}Usage: python3 GeoTrackerIP.py [options]".format(white))
@@ -75,7 +75,7 @@ def error_args():
 #LOCATE IP
 def geolocationIP(ip):
     #Logo
-    geotrackerip_logo.logo()
+    logo.logo()
 
     #Datos del usuario
     try:

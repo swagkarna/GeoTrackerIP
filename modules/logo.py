@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#[*] Name of the Tool: GeoTrackerIP
-#[*] Description: "Geolocalize IP Public"
+#[*] Name of the tool: GeoTrackerIP
+#[*] Description: "Geolocate an IP address or Domain"
 #[*] Version: 2.0
 #[*] Author: JRIC2002
-#[*] Module of the Tool: GeoTrackerIP
+#[*] Module of the tool: GeoTrackerIP
 #[*] Date of creation: 15/03/2019
 #[*] Date of last update: 29/04/2020
 
@@ -50,7 +50,7 @@ def logo():
     print("     {}\__/___\__/ {}|_| |_|_\_||_|\__/_|\_\___|_|_\  {}|_|_|   {}v2.0 ".format(blue, green, cyan, white))
     print("")
     print("               {}<<< {}Tool coded by:{} @JRIC2002 {}>>>{}".format(red, yellow, white, red, white))
-    print("          {}<<< {}Description:{} Geolocalize IP Public {}>>>{}".format(red, yellow, white, red, white))
+    print("    {}<<< {}Description:{} Geolocate an IP address or Domain {}>>>{}".format(red, yellow, white, red, white))
     print("")
 
 #START

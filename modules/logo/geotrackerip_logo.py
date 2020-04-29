@@ -5,7 +5,19 @@
 #[*] Description: "Geolocalize IP Public"
 #[*] Module of the Tool: GeoTrackerIP
 #[*] Author: JRIC2002
-#[*] Date: 15/03/2019
+#[*] Date of creation: 15/03/2019
+#[*] Date of last update: 29/04/2020
+
+""" Logo de la herramienta GeoTrackerIP. """
+
+__author__ = "JRIC2002"
+__copyright__ = "Copyright 2019, JRIC2002"
+__credits__ = "JRIC2002"
+__license__ = ""
+__version__ = "2.0"
+__maintainer__ = "JRIC2002"
+__email__ = "joselito18032002@gmail.com"
+__status__ = "Developer"
 
 #ANSI COLORS
 

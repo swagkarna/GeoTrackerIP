@@ -40,10 +40,6 @@ b_magenta = "\033[1;45m"
 b_cyan = "\033[1;46m"
 b_white = "\033[1;47m"
 
-#VERSION
-def version():
-    print("{}#GeoTrackerIP version 2.0".format(white))
-    
 #HELP MENU
 def help_menu():
     #Logo
@@ -72,7 +68,11 @@ def error_args():
     print("{}GeoTrackerIP.py: Error: Invalid option.".format(white))
     print("{}Use -h or --help to see the options.".format(white))
 
-#LOCATE IP
+#VERSION
+def version():
+    print("{}#GeoTrackerIP version 2.0".format(white))
+
+#GEOLOCATE IP ADDRESS
 def geolocationIP(ip):
     #Logo
     logo.logo()
